@@ -14,6 +14,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    namespace_packages=["zmath"],
     install_requires=[],
     entry_points={"zmath_plugins": ["zmathplus = zmath.zmathplus"]},
     keywords=["python", "math", "divide"],
